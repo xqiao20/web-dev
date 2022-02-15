@@ -1,0 +1,99 @@
+.padded-top-left{
+    padding-top: 12px;
+    padding-left: 16px;
+}
+
+.padded-left{
+    padding-left: 16px;
+}
+.bg-color-black{
+    background-color:black;
+}
+.bg-color-dark-gray{
+    background-color: darkgray;
+}
+.font-color-white{
+    color: white;
+}
+
+.font-color-lightgray{
+    color: lightgray;
+}
+.font-size-20{
+    font-size: 20px;
+}
+.font-size-15{
+    font-size: 15px;
+}
+.font-size-13{
+    font-size: 13px;
+}
+
+.boarder-solid{
+    border:1px solid lightgray;
+}
+
+.rounded-corners-all-around {
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+}
+
+.float-left{
+    float:left;
+}
+
+.float-done{
+    clear: both;
+}
+.handle{
+    color:lightgray;
+}
+
+.width-limit{
+    max-width:506px;
+}
+.padded-right{
+    padding-right: 16px;
+}
+.padded-bottom{
+    padding-bottom: 12px;
+}
+
+.image-size {
+    width: 504px;
+    height: 264px;
+}
+
+.rounded-corners-top{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.rounded-corners-bottom{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.font-bold{
+    font-weight: bold;
+}
+
+.padded-all-around{
+    padding: 12px;
+}
+
+.margin-bottom{
+    margin-bottom: 12px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+.icon-space{
+    padding-left: 12px;
+}
+
+
+
