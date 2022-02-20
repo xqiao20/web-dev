@@ -1,3 +1,7 @@
+.body{
+    background-color: black;
+}
+
 .rounded-corners-all-around {
     border-radius: 10px;
 }
@@ -64,8 +68,8 @@
     color: rgb(110, 118, 125);
 }
 .image-size{
-    height: 100px;
-    width:100px;
+    height: 80px;
+    width:80px;
 }
 
 .font-color-white{
@@ -84,4 +88,92 @@
 .font-color-white{
     color: white;
 }
+.zindex-bring-to-front{
+    z-index: 10;
+}
+.bg-color-gray{
+    background-color: #343a40;
+}
+
+a{
+    style: none;
+}
+.nav-tabs > li > a.active.override-bt {
+    border-color:#1d9bf0;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 3px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.nav-tabs > li > a.override-bt {
+    color: #575757;
+
+}
+div.override-text{
+    color:white;
+}
+span.override-text{
+    color:white;
+}
+i.override-text{
+    color:white;
+}
+ul.override-bd{
+    border-color: black;
+}
+.img-size{
+    height: 40px;
+    weight:40px;
+}
+
+.btn-primary.override-bg{
+    border-color:#1d9bf0 ;
+    background-color:#1d9bf0;
+    min-width: fit-content;
+}
+
+.nav > a.override-list{
+    background-color:black;
+    color:white;
+}
+
+.list-group > div.override-list{
+    background-color:black;
+}
+.list-group > div.override-bg-gray{
+    background-color:#16181c;
+}
+
+div.override-bar > i{
+    color:#575757
+}
+div.override-bar > a > i{
+    color:#575757
+}
+div.override-bar > input{
+    background:#202327 10%;
+    color:white;
+    border-color:#202327;
+}
+
+.nav > a.active.override-list{
+    border-color:black;
+    font-weight: bolder;
+}
+
+
+.btn-primary.override-bt{
+    background-color: white;
+    color:black;
+    border-color: black;
+}
+
+
 
