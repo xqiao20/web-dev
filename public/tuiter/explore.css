@@ -98,23 +98,29 @@
 a{
     style: none;
 }
+/*.nav-tabs > li > a.active.override-bt {*/
+/*    border-color:#1d9bf0;*/
+/*    background-color: black;*/
+/*    color: white;*/
+/*    font-size: 16px;*/
+/*    border-top: none;*/
+/*    border-left: none;*/
+/*    border-right: none;*/
+/*    border-width: 3px;*/
+/*    padding-left: 0;*/
+/*    padding-right: 0;*/
+/*    margin-left: 1rem;*/
+/*    margin-right: 1rem;*/
+/*}*/
 .nav-tabs > li > a.active.override-bt {
-    border-color:#1d9bf0;
-    background-color: black;
+    background-color:#299fd6;
+    border-color: #299fd6;
     color: white;
-    font-size: 16px;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    border-width: 3px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 1rem;
-    margin-right: 1rem;
 }
-.nav-tabs > li > a.override-bt {
-    color: #575757;
 
+.nav-tabs > li > a.override-bt {
+    /*color: #575757;*/
+    color:white;
 }
 div.override-text{
     color:white;
@@ -126,7 +132,8 @@ i.override-text{
     color:white;
 }
 ul.override-bd{
-    border-color: black;
+    /*border-color: black;*/
+    border-color:#191c1f;
 }
 .img-size{
     height: 40px;
@@ -134,13 +141,18 @@ ul.override-bd{
 }
 
 .btn-primary.override-bg{
-    border-color:#1d9bf0 ;
-    background-color:#1d9bf0;
+    border-color:#299fd6;
+    background-color:#299fd6;
     min-width: fit-content;
+}
+.fa-cog{
+    color:#299fd6;
 }
 
 .nav > a.override-list{
-    background-color:black;
+    /*background-color:black;*/
+    background-color: #16181c;
+    border-color: #191c1f;
     color:white;
 }
 
@@ -149,30 +161,37 @@ ul.override-bd{
 }
 .list-group > div.override-bg-gray{
     background-color:#16181c;
+    border-color: #191c1f;
 }
 
-div.override-bar > i{
-    color:#575757
-}
-div.override-bar > a > i{
-    color:#575757
-}
-div.override-bar > input{
-    background:#202327 10%;
-    color:white;
-    border-color:#202327;
-}
+/*div.override-bar > i{*/
+/*    color:#575757*/
+/*}*/
+/*div.override-bar > a > i{*/
+/*    color:#575757*/
+/*}*/
+/*div.override-bar > input{*/
+/*    background:#202327 10%;*/
+/*    color:white;*/
+/*    border-color:#202327;*/
+/*}*/
 
+/*.nav > a.active.override-list{*/
+/*    border-color:black;*/
+/*    font-weight: bolder;*/
+/*}*/
 .nav > a.active.override-list{
-    border-color:black;
-    font-weight: bolder;
+    background-color: #299fd6;
+    border-color: #16181c;
 }
-
-
+.list-group > div.override-list{
+    background-color: #16181c;
+}
 .btn-primary.override-bt{
-    background-color: white;
-    color:black;
-    border-color: black;
+    /*background-color: white;*/
+    /*color:black;*/
+    /*border-color: black;*/
+    background-color: #299fd6;
 }
 
 
