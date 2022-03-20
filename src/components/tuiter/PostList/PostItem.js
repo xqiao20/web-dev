@@ -19,7 +19,7 @@ const PostItem = ({post =
                     {post.tweet}
                 </div>
                 <div className="list-group center">
-                    <div className="list-group-item image ">
+                    <div className="list-group-item overflow-auto p-0">
                         <img src={post.image} className="img-fluid"/>
                     </div>
                    

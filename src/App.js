@@ -5,9 +5,10 @@ import './vendors/bootstrap/bootstrap.min.css';
 import './vendors/fontawesome/css/all.min.css';
 import HelloWorld from './components/HelloWorld';
 import Labs from "./components/labs";
-import HomeScreen from "./components/tuiter/HomeScreen/index.js";
-import ExploreScreen from "./components/tuiter/ExploreScreen/index.js";
+import HomeScreen from "./components/tuiter/HomeScreen";
+import ExploreScreen from "./components/tuiter/ExploreScreen";
 import {BrowserRouter, Route} from "react-router-dom";
+
 
 
 
