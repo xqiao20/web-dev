@@ -7,7 +7,7 @@ import HelloWorld from './components/HelloWorld';
 import Labs from "./components/labs";
 import HomeScreen from "./components/tuiter/HomeScreen";
 import ExploreScreen from "./components/tuiter/ExploreScreen";
-import {BrowserRouter, Route} from "react-router-dom";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 
 
@@ -16,18 +16,14 @@ function App() {
   return (
       <BrowserRouter>
         <div className="container">
-          <Route path="/hello" exact={true}>
-            <HelloWorld/>
-          </Route>
-          <Route path={["/", "/labs"]} exact={true}>
-            <Labs/>
-          </Route>
-            <Route path="/tuiter/home" exact={true}>
-            <HomeScreen/>
-            </Route>
-            <Route path="/tuiter/explore" exact={true}>
-                <ExploreScreen/>
-            </Route>
+            <Routes>
+                <Route path="/hello"
+                       element={<HelloWorld/>}/>
+                <Route path="/"
+                       element={<Labs/>}/>
+                <Route path="/tuiter/home" element={<HomeScreen/>}/>
+                <Route path="/tuiter/explore" element={<ExploreScreen/>}/>
+            </Routes>
         </div>
       </BrowserRouter>
   );
