@@ -1,0 +1,8 @@
+{
+  "firstName": "Xiaoqing", "lastName": "Qiao", "handle": "qiao",
+  "profilePicture": "/images/picture.jpg", 	"bannerPicture": "/images/profile.jpg",
+  "bio": "Graduate student in CS @ NEU",
+  "website": "https://www.linkedin.com/in/xiaoqing-qiao/",
+  "location": "Boston, MA",	"dateOfBirth": "2002-02-02",	"dateJoined": "2/2020",
+  "followingCount": 12,	"followersCount": 568, "tuitCounts": 5196
+}

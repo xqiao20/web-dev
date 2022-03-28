@@ -1,26 +1,26 @@
 import React from "react";
-import {Link} from "react-router-dom";
-import NavigationSidebar from "./NavigationSidebar/index.js";
-import WhoToFollowList from "./WhoToFollowList";
-import ExploreComponent from "./ExploreScreen/ExploreComponent";
+import {Outlet} from "react-router-dom";
+import whoReducer from "./reducers/who-reducer";
+import tuitsReducer from "./reducers/tuits-reducer";
+import profileReducer from "./reducers/profile-reducer"
+import {combineReducers, createStore} from "redux";
+import {Provider} from "react-redux";
+
+const reducers = combineReducers({
+    tuits: tuitsReducer, who: whoReducer, profile: profileReducer
+});
+const store = createStore(reducers);
 
 const Tuiter = () => {
     return(
-        <>
-            <div className="row mt-2">
-                <div className="col-2 col-md-2 col-lg-1 col-xl-2">
-                    <NavigationSidebar active="explore"/>
-                </div>
-                <div className="col-10 col-md-10 col-lg-7 col-xl-6"
-                     style={{"position": "relative"}}>
-                    <ExploreComponent/>
-                </div>
-                <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
-                    <WhoToFollowList/>
+        <Provider store={store}>
+            <div className="row">
+                <div>
+                    <Outlet/>
                 </div>
             </div>
-        </>
-    )
+        </Provider>
+    );
 };
 
 export default Tuiter;
